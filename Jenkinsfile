@@ -11,7 +11,7 @@ pipeline
       stage('fetch code from github')
       {
          steps{
-            git branch:'vp-rem'; url:'https://github.com/Teja-Chittamuri/vprofile-project-Devops.git'
+            git branch:'main'; url:'https://github.com/Teja-Chittamuri/devops_CI_Project.git'
         }
       }
       stage('Build the artifact')
